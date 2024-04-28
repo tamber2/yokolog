@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name" translatable="false">Yokolog</string>
+    <string name="settings">Settings</string>
+    <string name="back">Back</string>
+    <string name="csv_export">Export data</string>
+    <string name="add_new_item_hint">Click the Add new entry Button to get started!</string>
+    <string name="edit">Edit</string>
+    <string name="add_new_item">Add new entry</string>
+    <string name="description_placeholder">Enter your description</string>
+    <string name="error_input">Invalid input</string>
+    <string name="close">Close</string>
+    <string name="csv_export_summary">Exports all items from the database, into a CSV file.</string>
+    <string name="item_types_title">Item types</string>
+    <string name="item_types_summary">Create and manage item types</string>
+    <string name="add_new_item_type">Add new</string>
+    <string name="add_new_item_type_icon">Add new item type icon</string>
+    <string name="delete">Delete</string>
+    <string name="error_cannot_delete">Cannot delete type, it is in use!</string>
+    <string name="description_text_input_field">Description text input field</string>
+    <string name="unit_label">Optional: unit of measurement</string>
+    <string name="unit_icon">Unit icon</string>
+    <string name="error_cannot_add_type">Can\'t add type, one with the same name already exists!</string>
+    <string name="is_numeric_label">Numeric value</string>
+    <string name="error_empty_description">You have to add a description text</string>
+    <string name="error_saving_item_type">Can\'t edit item type, one with the same name already exists</string>
+    <string name="error_cant_delete_type">Can\'t delete, it is the last one</string>
+    <string name="error_item_type_in_use">Can\'t delete, item type is in use</string>
+</resources>
