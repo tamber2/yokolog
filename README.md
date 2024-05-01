@@ -3,12 +3,11 @@ An App for logging things
 
 ## Contents
 
-1. [Why](#Why)
-1. [Where](#Where)
+1. [About](#About)
 1. [TODOs](#TODOs)
 1. [License](#license)
 
-## Why?
+## About
 I've made this app for myself, so that I can track the weight, and other things for my dog (she is called Yoko).
 You can use this to log whatever you want.
 
@@ -20,8 +19,6 @@ Features:
 No ads, no tracking (except what Google Play Store already does).
 The code is in the public domain!
 https://github.com/tamber2/yokolog
-
-## Where?
 
 
 ## TODOs
