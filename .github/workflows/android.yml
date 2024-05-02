@@ -23,8 +23,8 @@ jobs:
       
     - name: Get current date
       id: date
-      run: echo "{name}={date::$(date +'%YYYY-%mm-%dd-HH-mm-ss')}" >> $CURRENT_DATETIME
-
+      run: echo "CURRENT_DATETIME=$(date +'%YYYY-%mm-%dd-HH-mm-ss')"
+      
     - name: Bump Version Code
       uses: chkfung/android-version-actions@v1.2.3
       with:
