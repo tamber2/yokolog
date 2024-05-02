@@ -61,7 +61,7 @@ jobs:
     - name: Upload App Bundle
       uses: actions/upload-artifact@v4
       with:
-        name: aab
+        name: app-release.aab
         path: ${{steps.sign_aab.outputs.signedReleaseFile}}
      
     - name: Sign APK
@@ -79,7 +79,7 @@ jobs:
     - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
-        name: Signed app bundle
+        name: app-release.apk
         path: ${{steps.sign_app.outputs.signedReleaseFile}}
 
   deploy:
@@ -90,7 +90,7 @@ jobs:
       - name: Download app bundle from artifact
         uses: actions/download-artifact@v4
         with:
-          name: app-bundle
+          name: app-release.aab
       - name: Publish to Play Store
         uses: r0adkll/upload-google-play@v1
         with:
