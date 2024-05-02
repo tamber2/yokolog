@@ -18,11 +18,9 @@ jobs:
         distribution: 'temurin'
         cache: gradle
 
-    - name: Setup Gradle Cache
-      uses: gradle/gradle-build-action@v3
-      with:
-         gradle-home-cache-cleanup: true
-
+    - name: Setup Gradle
+      uses: gradle/actions/setup-gradle@v3
+      
     - name: Get current date
       id: date
       run: echo "::set-output name=date::$(date +'%YYYY-%mm-%dd-HH-mm-ss')"
