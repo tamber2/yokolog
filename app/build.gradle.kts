@@ -26,8 +26,6 @@ android {
 
     buildTypes {
         release {
-            val date = LocalDate.now().format(ISO_LOCAL_DATE)
-            versionNameSuffix = date
             isMinifyEnabled = true
             isShrinkResources = true
             proguardFiles(
