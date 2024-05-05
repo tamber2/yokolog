@@ -1,6 +1,8 @@
 # yokolog
 An App for logging things
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/S6S3XG5FG)
+
 ## Contents
 
 1. [About](#About)
