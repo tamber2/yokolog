@@ -30,7 +30,7 @@ jobs:
       with:
         gradlePath: app/build.gradle.kts
         versionCode: ${{ github.run_number }}
-        versionName: 1.0.0-$NOW
+        versionName: 1.0.0-${{env.NOW}}
                
     - name: gradle build
       run: chmod +x gradlew
